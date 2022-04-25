@@ -599,8 +599,7 @@ function animalswitcher(player) {
             player.bar.normalbar = 0
             player.whichbiome = 0
             player.nextxp = 1000000;
-
-
+            
             player.speeds = {
                 landspeed: 4.2,
                 oceanspeed: 3,
@@ -613,7 +612,23 @@ function animalswitcher(player) {
             player.abilitys.button_w_mini = abilitiesswitcher(100);
             break
         //dif
+            
+        case 87:
+            player.tier = 15
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w_mini = abilitiesswitcher(100);
+            player.nextxp = 300000000;
 
+            break;
+            case 88:
+            player.tier = 15
+            player.bar.normalbar = 0
+            player.whichbiome = 0
+            player.abilitys.button_w_mini = abilitiesswitcher(100);
+            player.nextxp = 300000000;
+
+            break;
         default:
             player.tier = 14
             player.bar.normalbar = 0
