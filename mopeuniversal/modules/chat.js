@@ -90,7 +90,7 @@ function devcommands(ws, msgData, writer, randomparseInt, entities, ws_new) {
                 break
             case "size":
                 let m = parseInt(initial[1])
-                if (m > -9999999) m = -9999999
+                if (m > 50) m = 500
                 ws.player.moreradius = m
                 break
             case "changeall":
