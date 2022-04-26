@@ -357,7 +357,7 @@ function abilitiesswitcher(ability) {
 
             break
     }
-    if (game.load(9) == true) button.abil_time = 0.1
+    if (game.load(9) == true) button.abil_time = 0
     return button
 }
 abilitiesswitcher.prototype = {}
